@@ -1,0 +1,15 @@
+/* Стили для тела документа */
+body {
+  width: 800px; /* Устанавливаем фиксированную ширину блока в 800 пикселей */
+  background: lightcyan; /* Задаем светло-бирюзовый цвет фона страницы */
+  color: #ff0000; /* Устанавливаем красный цвет текста с помощью HEX-кода */
+}
+h1 {
+  color: maroon;
+  text-align: center;
+}
+p {
+  color: gray;
+  border: 1px solid gray;
+  padding: 10px;
+}

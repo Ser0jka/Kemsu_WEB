@@ -1,0 +1,13 @@
+body {
+  background: rgb(246, 221, 191);
+  width: 300px;
+  margin: 200px auto;
+}
+div {
+  border: 10px dashed rgb(0, 128, 66);
+  text-align: center;
+  padding: 5px;
+}
+p {
+  border: 3px solid rgb(255, 187, 0);
+}

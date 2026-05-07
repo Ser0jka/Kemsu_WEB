@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.container {
+    max-width: 855px;
+    margin: 0 auto;
+    overflow: auto; /* для очистки float */
+}
+
+/* Фон для header и main */
+header, main {
+    background-color: white;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: #f9e933;
+}
+
+/* Стили для header: две колонки */
+header {
+    background: white;
+    overflow: auto;
+}
+
+header h1 {
+    float: left;
+    width: 570px;
+    font-size: 30px;
+    font-weight: 700;
+}
+header nav {
+    float: right;
+    width: 285px;
+}
+
+
+main{
+    padding: 40px 0;
+    color: white;
+    background: url("../images/image.png");
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+/* Колонки в main */
+.left-column {
+    width: 570px;
+    float: left;
+}
+
+.right-column {
+    width: 285px;
+    float: right;
+}
+
+/* Колонки в footer */
+footer .contact {
+    width: 470px;
+    float: left;
+}
+
+footer .sitemap {
+    width: 330px;
+    float: right;
+}
+
+/* Дополнительно: стили для карты сайта в подвале */
+footer .sitemap ul {
+    list-style: none;
+    padding-left: 0;
+}
+footer .sitemap li {
+    margin-bottom: 5px;
+}
+
+/* Поля и отступы для элементов */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+h1, h2, h3, h4 {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+ul {
+    margin-top: 0;
+    margin-bottom: 15px;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+.left-column, .right-column {
+    margin-bottom: 20px;
+}
+
+.contact, .sitemap {
+    margin-bottom: 20px;
+}
+
+/* Стили для ссылок */
+a {
+    color: red;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Стили для страницы ВиО (FAQ) */
+main .left-column h4 {
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
+
+main .left-column h4:first-of-type {
+    margin-top: 0;
+}
+
+main .left-column p {
+    margin-bottom: 20px;
+    line-height: 1.4;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    gap:20px
+
+}
+
+.leftSide, .rightSide{
+    width: 50%;
+}
+
+.faq-column{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.faq-column a{
+    color: white;
+}
+
+
+.tabs a span {
+  display: inline-block;
+  border-radius: 5px 5px 0 0;
+  width: 100px;
+  margin-right: 10px;
+  text-align: center;
+  background: #ddd;
+  padding: 5px;
+}
+
+.tabs a span.active {
+  background: #eee;
+}
+
+.content{
+    padding-top: 20px;
+}
+
+.plusButton{
+    padding: 12px;
+    margin-left: 20px;
+    background-color: #2ecc71; /* Зеленый цвет (символ добавления) */
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.book-input {
+    padding: 10px 12px;
+    font-size: 16px;
+    border: 2px solid #ddd;
+    border-radius: 6px;
+    outline: none;           /* Убираем стандартную синюю рамку браузера */
+    transition: all 0.3s ease; /* Плавный переход цвета */
+    color: #333;
+}
+
+
+.content h3 {
+    color: #fff; /* Белый цвет для названий тегов */
+    font-size: 1.4em;
+    margin: 20px 0 10px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3); /* Тонкая линия под тегом */
+    padding-bottom: 5px;
+    text-transform: capitalize;
+}
+
+.content ul {
+    list-style: none;
+    padding: 0;
+    display: flex; /* Выстраиваем книги в ряд */
+    flex-wrap: wrap; /* Если не влезают, переносятся на новую строку */
+    gap: 15px; /* Расстояние между книгами */
+}
+
+.content li {
+    background: rgba(255, 255, 255, 0.1); /* Полупрозрачный фон для книги */
+    color: #eee;
+    padding: 8px 15px;
+    border-radius: 4px;
+    font-style: italic;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    transition: background 0.3s;
+}
+
+.content li:hover {
+    background: rgba(255, 255, 255, 0.2); /* Подсветка при наведении */
+    cursor: default;
+}

@@ -12,18 +12,18 @@ var main = function () {
     //     });
     // });
 
-    // $.getJSON(url, function (flickrResponse) {
-    //     flickrResponse.items.forEach(function (photo) {
-    //         // создаем новый элемент jQuery для помещения в него изображения
-    //         var $img = $("<img>");
-    //         // помещаем в атрибут URL,
-    //         // хранящийся в ответе Flickr
-    //         $img.attr("src", photo.media.m);
-    //         // прикрепляем тег img к элементу
-    //         // main .photos
-    //         $("main .photos").append($img);
-    //     });
-    // });
+    $.getJSON(url, function (flickrResponse) {
+        flickrResponse.items.forEach(function (photo) {
+            // создаем новый элемент jQuery для помещения в него изображения
+            var $img = $("<img>");
+            // помещаем в атрибут URL,
+            // хранящийся в ответе Flickr
+            $img.attr("src", photo.media.m);
+            // прикрепляем тег img к элементу
+            // main .photos
+            $("main .photos").append($img);
+        });
+    });
 
     $.getJSON(url, function (flickrResponse) {
         flickrResponse.items.forEach(function (photo) {

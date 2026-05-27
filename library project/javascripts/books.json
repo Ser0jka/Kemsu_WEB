@@ -1,0 +1,134 @@
+[
+    {
+        "title": "Зулейха открывает глаза",
+        "author": "Гузель Яхина",
+        "year": 2015,
+        "category": "Современная проза",
+        "status": "В наличии",
+        "isNew": false,
+        "color": "cover-red",
+        "cover": "https://covers.openlibrary.org/b/isbn/9785170904365-M.jpg",
+        "description": "Роман о судьбе женщины в переломное время и о том, как человек заново собирает свою жизнь."
+    },
+    {
+        "title": "Дом, в котором...",
+        "author": "Мариам Петросян",
+        "year": 2009,
+        "category": "Фэнтези",
+        "status": "В наличии",
+        "isNew": false,
+        "color": "cover-blue",
+        "cover": "https://covers.openlibrary.org/b/isbn/9785171132019-M.jpg",
+        "description": "Большой роман о закрытом доме, дружбе, тайнах и взрослении."
+    },
+    {
+        "title": "Пиши, сокращай",
+        "author": "Максим Ильяхов, Людмила Сарычева",
+        "year": 2023,
+        "category": "Саморазвитие",
+        "status": "Новое поступление",
+        "isNew": true,
+        "color": "cover-gold",
+        "cover": "https://covers.openlibrary.org/b/isbn/9785961472765-M.jpg",
+        "description": "Практическая книга о ясном тексте, редактуре и уважении к читателю."
+    },
+    {
+        "title": "Сердце Пармы",
+        "author": "Алексей Иванов",
+        "year": 2003,
+        "category": "Исторический роман",
+        "status": "В наличии",
+        "isNew": false,
+        "color": "",
+        "cover": "https://covers.openlibrary.org/b/isbn/9785170903450-M.jpg",
+        "description": "Историческая проза о столкновении культур, северной земле и выборе человека."
+    },
+    {
+        "title": "Атлант расправил плечи",
+        "author": "Айн Рэнд",
+        "year": 1957,
+        "category": "Классика",
+        "status": "На руках",
+        "isNew": false,
+        "color": "cover-blue",
+        "cover": "https://covers.openlibrary.org/b/isbn/9780451191144-M.jpg",
+        "description": "Масштабный роман о личной ответственности, труде и цене собственных решений."
+    },
+    {
+        "title": "Сапиенс. Краткая история человечества",
+        "author": "Юваль Ной Харари",
+        "year": 2011,
+        "category": "Научпоп",
+        "status": "В наличии",
+        "isNew": false,
+        "color": "cover-gold",
+        "cover": "https://covers.openlibrary.org/b/isbn/9780062316097-M.jpg",
+        "description": "Популярное изложение истории человека от древних обществ до современного мира."
+    },
+    {
+        "title": "Нормальные люди",
+        "author": "Салли Руни",
+        "year": 2024,
+        "category": "Современная проза",
+        "status": "Новое поступление",
+        "isNew": true,
+        "color": "cover-red",
+        "cover": "https://covers.openlibrary.org/b/isbn/9781984822178-M.jpg",
+        "description": "Тонкий роман о взрослении, близости и сложных разговорах, которые меняют отношения."
+    },
+    {
+        "title": "Краткие ответы на большие вопросы",
+        "author": "Стивен Хокинг",
+        "year": 2018,
+        "category": "Научпоп",
+        "status": "В наличии",
+        "isNew": false,
+        "color": "",
+        "cover": "https://covers.openlibrary.org/b/isbn/9781984819192-M.jpg",
+        "description": "Размышления ученого о космосе, будущем технологий и месте человека во Вселенной."
+    },
+    {
+        "title": "Манюня",
+        "author": "Наринэ Абгарян",
+        "year": 2010,
+        "category": "Детская литература",
+        "status": "В наличии",
+        "isNew": false,
+        "color": "cover-gold",
+        "cover": "https://covers.openlibrary.org/b/isbn/9785171018771-M.jpg",
+        "description": "Добрая и смешная история о детстве, семье, дружбе и маленьких приключениях."
+    },
+    {
+        "title": "География Кузбасса",
+        "author": "Елена Морозова",
+        "year": 2022,
+        "category": "Краеведение",
+        "status": "В читальном зале",
+        "isNew": false,
+        "color": "cover-blue",
+        "cover": "",
+        "description": "Учебное издание о природе, городах и промышленной истории Кемеровской области."
+    },
+    {
+        "title": "К себе нежно",
+        "author": "Ольга Примаченко",
+        "year": 2024,
+        "category": "Саморазвитие",
+        "status": "Новое поступление",
+        "isNew": true,
+        "color": "cover-red",
+        "cover": "https://covers.openlibrary.org/b/isbn/9785041128500-M.jpg",
+        "description": "Спокойная книга о заботе о себе, границах и внимательном отношении к своей жизни."
+    },
+    {
+        "title": "451 градус по Фаренгейту",
+        "author": "Рэй Брэдбери",
+        "year": 1953,
+        "category": "Классика",
+        "status": "В наличии",
+        "isNew": false,
+        "color": "",
+        "cover": "https://covers.openlibrary.org/b/isbn/9781451673319-M.jpg",
+        "description": "Антиутопия о мире без книг и о людях, которые продолжают хранить память."
+    }
+]

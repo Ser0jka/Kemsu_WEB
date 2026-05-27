@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Каталог - Северная библиотека</title>
+    <link rel="stylesheet" href="stylesheets/reset.css">
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="javascripts/app.js"></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="logo" href="index.html">Северная библиотека</a>
+        <nav class="main-nav">
+          <a href="index.html">Главная</a>
+          <a class="active" href="tasks.html">Каталог</a>
+          <a href="faq.html">Вопросы</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="catalog-page">
+      <section class="catalog-hero">
+        <div class="container">
+          <p class="eyebrow">Книжный фонд</p>
+          <h1>Каталог библиотеки</h1>
+          <p>Подборка книг для учебы, отдыха и знакомства с современной литературой.</p>
+        </div>
+      </section>
+
+      <section class="catalog-section">
+        <div class="container">
+          <div class="catalog-toolbar">
+            <label>
+              Поиск
+              <input id="searchInput" type="text" placeholder="Название или автор">
+            </label>
+            <label>
+              Категория
+              <select id="categoryFilter">
+                <option value="all">Все категории</option>
+              </select>
+            </label>
+            <label>
+              Сортировка
+              <select id="sortSelect">
+                <option value="new">Сначала новые</option>
+                <option value="old">Сначала старые</option>
+                <option value="title">По названию</option>
+              </select>
+            </label>
+          </div>
+
+          <div class="tabs">
+            <a href=""><span class="active">Все книги</span></a>
+            <a href=""><span>Новинки</span></a>
+            <a href=""><span>По категориям</span></a>
+            <a href=""><span>Добавить</span></a>
+          </div>
+
+          <div class="content"></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div>
+          <h2>Северная библиотека</h2>
+          <p>Каталог обновляется сотрудниками библиотеки и пополняется новыми поступлениями.</p>
+        </div>
+        <div class="footer-links">
+          <a href="index.html">Главная</a>
+          <a href="tasks.html">Каталог</a>
+          <a href="faq.html">Вопросы</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
